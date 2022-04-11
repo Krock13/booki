@@ -103,6 +103,160 @@ header h1{
     display: none;
 }
 
+/* FILTERS */
+
+.filters{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.filters_title{
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.economic{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #f2f2f2;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.fa-money-bill-wave{
+    color: #0065fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -2px;
+    border-radius: 25px;
+    width: 52px;
+    height: 52px;
+    background-color: #deebff;
+}
+
+.economic_text{
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0 25px 25px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.family{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #f2f2f2;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.fa-child{
+    color: #0065fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -2px;
+    border-radius: 25px;
+    width: 52px;
+    height: 52px;
+    background-color: #deebff;
+}
+
+.family_text{
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0 25px 25px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.romance{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #f2f2f2;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.fa-heart{
+    color: #0065fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -2px;
+    border-radius: 25px;
+    width: 52px;
+    height: 52px;
+    background-color: #deebff;
+}
+
+.romance_text{
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0 25px 25px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pets{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #f2f2f2;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.fa-dog{
+    color: #0065fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -2px;
+    border-radius: 25px;
+    width: 52px;
+    height: 52px;
+    background-color: #deebff;
+}
+
+.pets_text{
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0 25px 25px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*---------------------------------------------------------------------------------------------*/
 
 
