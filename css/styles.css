@@ -5,6 +5,26 @@ body {
   font-family: Raleway, Arial, Helvetica, sans-serif;
 }
 
+.display-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.display-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.display-around{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
 /* MENU */
 
 .logo{
@@ -13,9 +33,6 @@ body {
 }
 
 .navigation{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     margin-right: 100px;
 }
 
@@ -54,16 +71,10 @@ header h1{
     width: 400px;
     border-radius: 10px;
     border: 0.5px solid #f2f2f2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .icon_map{
     background-color: #f2f2f2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 50px;
     width: 50px;
     border-radius: 10px 0 0 10px;
@@ -75,18 +86,12 @@ header h1{
     font-size: 18px;
     color: black;
     font-weight: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     border: none;
     padding-left: 20px;
 }
 
 .search_button{
     background-color: #0065fc;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 50px;
     width: 120px;
     color: white;
@@ -112,15 +117,24 @@ header h1{
     margin-bottom: 40px;
 }
 
-.filters_title{
+header h2{
     margin-right: 20px;
     font-size: 14px;
 }
 
+.filters p{
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0 25px 25px 0;
+    padding-top: 32px;
+}
+
+.icon-center{
+    text-align: center;
+}
+
 .economic{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     border: 2px solid #f2f2f2;
     height: 50px;
     border-radius: 30px;
@@ -129,9 +143,6 @@ header h1{
 
 .fa-money-bill-wave{
     color: #0065fc;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-left: -2px;
     border-radius: 25px;
     width: 52px;
@@ -139,20 +150,7 @@ header h1{
     background-color: #deebff;
 }
 
-.economic_text{
-    height: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 0 25px 25px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .family{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     border: 2px solid #f2f2f2;
     height: 50px;
     border-radius: 30px;
@@ -161,9 +159,6 @@ header h1{
 
 .fa-child{
     color: #0065fc;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-left: -2px;
     border-radius: 25px;
     width: 52px;
@@ -171,20 +166,7 @@ header h1{
     background-color: #deebff;
 }
 
-.family_text{
-    height: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 0 25px 25px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .romance{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     border: 2px solid #f2f2f2;
     height: 50px;
     border-radius: 30px;
@@ -193,9 +175,6 @@ header h1{
 
 .fa-heart{
     color: #0065fc;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-left: -2px;
     border-radius: 25px;
     width: 52px;
@@ -203,20 +182,7 @@ header h1{
     background-color: #deebff;
 }
 
-.romance_text{
-    height: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 0 25px 25px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .pets{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     border: 2px solid #f2f2f2;
     height: 50px;
     border-radius: 30px;
@@ -225,9 +191,6 @@ header h1{
 
 .fa-dog{
     color: #0065fc;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-left: -2px;
     border-radius: 25px;
     width: 52px;
@@ -235,15 +198,6 @@ header h1{
     background-color: #deebff;
 }
 
-.pets_text{
-    height: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 0 25px 25px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 
 
