@@ -198,7 +198,22 @@ header h2{
     background-color: #deebff;
 }
 
+/* INFO */
 
+.info{
+    display: flex;
+    align-items: center;
+}
+
+.info-icon{
+    width: 20px;
+    height: 20px;
+    border: 2px solid #f2f2f2;
+    border-radius: 25px;
+    margin-right: 5px;
+    color: #0065fc;
+    text-align: center;
+}
 
 
 
