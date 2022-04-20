@@ -23,36 +23,52 @@ body {
     align-items: center;
 }
 
-
-
 /* MENU */
 
 .logo{
-    width: 70%;
-    height: 70%;
+    width: 200px;
+    height: 85px;
+    margin-top: 20px;
+    margin-bottom: 7px;
 }
 
-.navigation{
-    margin-right: 100px;
-}
-
-.menu{
+.navigation {
+    height: auto;
     display: flex;
-    gap: 40px;
+  }
+  
+  .menu {
+    margin-left: 60%;
+  }
+  
+  .display-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bordure{
     border-top: 1px solid transparent;
-}
-
-.item1:hover{
-    border-top: 1px solid #0065FC;
+  }
+  
+  .item {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .size-link {
+    width: 140px;
+    height: 99px;
+    border-top: 1px solid transparent;
+  }
+  
+  .bordure:hover {
+    border-top: 1px solid #0065fc;
     cursor: pointer;
+  }
+  .bordure:hover > a {
     color: #0065fc;
-}
-
-.item2:hover{
-    border-top: 1px solid #0065FC;
-    cursor: pointer;
-    color: #0065fc;
-}
+  }
 
 /* HEADER */
 
@@ -130,16 +146,16 @@ header h2{
     padding-top: 32px;
 }
 
-.icon-center{
-    text-align: center;
-
-}
-
 .economic{
     border: 2px solid #f2f2f2;
     height: 50px;
     border-radius: 30px;
     margin-right: 20px;
+}
+
+.economic:hover{
+    cursor: pointer;
+    transform: scale(1.05);
 }
 
 .fa-money-bill-wave{
@@ -149,6 +165,9 @@ header h2{
     width: 52px;
     height: 52px;
     background-color: #deebff;
+    position: relative;
+    padding: 16px 12px;
+    box-sizing: border-box;
 }
 
 .family{
@@ -158,6 +177,11 @@ header h2{
     margin-right: 20px;
 }
 
+.family:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
 .fa-child{
     color: #0065fc;
     margin-left: -2px;
@@ -165,6 +189,9 @@ header h2{
     width: 52px;
     height: 52px;
     background-color: #deebff;
+    position: relative;
+    padding: 16px 18px;
+    box-sizing: border-box;
 }
 
 .romance{
@@ -174,6 +201,11 @@ header h2{
     margin-right: 20px;
 }
 
+.romance:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
 .fa-heart{
     color: #0065fc;
     margin-left: -2px;
@@ -181,6 +213,9 @@ header h2{
     width: 52px;
     height: 52px;
     background-color: #deebff;
+    position: relative;
+    padding: 17px 16px;
+    box-sizing: border-box;
 }
 
 .pets{
@@ -190,6 +225,11 @@ header h2{
     margin-right: 20px;
 }
 
+.pets:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
 .fa-dog{
     color: #0065fc;
     margin-left: -2px;
@@ -197,6 +237,9 @@ header h2{
     width: 52px;
     height: 52px;
     background-color: #deebff;
+    position: relative;
+    padding: 14px 14px;
+    box-sizing: border-box;
 }
 
 /* INFO */
@@ -213,7 +256,9 @@ header h2{
     border-radius: 25px;
     margin-right: 5px;
     color: #0065fc;
-    text-align: center;
+    position: relative;
+    padding: 1.5px 5px;
+    box-sizing: border-box;
 }
 
 /* HEBERGEMENTS */
@@ -366,44 +411,69 @@ aside h2{
     width: 100%;
     height: 530px;
     border-radius: 15px 15px 0 0;
-  }
+}
 
 .img-activites2 {
     object-fit: cover;
     width: 100%;
     height: 250px;
     border-radius: 15px 15px 0 0;
-  }
+}
 .img-activites3 {
     object-fit: cover;
     width: 100%;
     height: 150px;
     border-radius: 15px 15px 0 0;
-  }
+}
 .img-activites4 {
     object-fit: cover;
     width: 100%;
     height: 530px;
     border-radius: 15px 15px 0 0;
-  }
+}
 .img-activites5 {
     object-fit: cover;
     width: 100%;
     height: 200px;
     border-radius: 15px 15px 0 0;
-  }
+}
 .img-activites6 {
     object-fit: cover;
     width: 100%;
     height: 200px;
     border-radius: 15px 15px 0 0;
-  }
+}
 
 /* Footer */
 
+.footer{
+    height: 300px;
+    margin-top: 100px;
+    background-color: #f2f2f2;
+}
 
+.marge-footer1{
+    margin-left: 5%;
+    height: 150px;
+}
 
+.marge-footer2{
+    height: 150px;
+}
 
+.marge-footer3{
+    margin-right: 15%;
+    height: 150px;
+}
+
+.link-footer{
+    height: 30px;
+}
+
+.link-decoration{
+    text-decoration: none;
+    color: black;
+}
 
 
 
