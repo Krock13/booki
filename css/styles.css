@@ -196,27 +196,11 @@ header h2{
     padding: 15px 15px;
 }
 
-.family:hover{
-    cursor: pointer;
-    transform: scale(1.05);
-}
-
-.romance:hover{
-    cursor: pointer;
-    transform: scale(1.05);
-}
-
-.pets:hover{
-    cursor: pointer;
-    transform: scale(1.05);
-}
-
 /* INFO */
 
 .info{
     display: flex;
     align-items: center;
-
     margin-bottom: 25px;
 }
 
@@ -259,7 +243,7 @@ header h2{
     margin-top: 10px;
 }
 
-.vignette-hebergements{
+.hebergements-thumbnail{
     text-decoration: unset;
     width: 30%;
     height: auto;
@@ -273,7 +257,7 @@ header h2{
     box-shadow: 5px 10px 10px 5px #f2f2f2;
 }
 
-.images-hebergements{
+.hebergements-pictures{
     object-fit: cover;
     width: 100%;
     height: 120px;
@@ -285,11 +269,11 @@ header h2{
     color: black;
 }
 
-.bleu{
+.blue{
     color: #0065fc;
 }
 
-.gris{
+.gray{
     color: #f2f2f2;
 }
 
@@ -327,7 +311,7 @@ aside h2{
     margin-top: 40px;
 }
 
-.vignette-populaires{
+.populaires-thumbnail{
     text-decoration: unset;
     margin-bottom: 40px;
     background-color: white;
@@ -340,7 +324,7 @@ aside h2{
     margin-top: 20px;
 }
 
-.images-populaires{
+.populaires-pictures{
     object-fit: cover;
     width: 35%;
     height: 160px;
@@ -364,19 +348,19 @@ aside h2{
     margin-bottom: 40px;
 }
 
-.cadre-activites{
+.activites-frame{
     width: 100%;
     height: 600px;
 }
 
-.big-img{
+.big-pic{
     text-decoration: unset;
     width: 23%;
     border-radius: 15px;
     box-shadow: 5px 5px 5px 1px #f2f2f2;
 }
 
-.titre-img{
+.pic-title{
     height: 30px;
     display: flex;
     justify-content: flex-start;
@@ -386,7 +370,7 @@ aside h2{
     color: black;
 }
 
-.split-img{
+.split-pic{
     width: 23%;
     height: 600px;
     display: flex;
@@ -394,7 +378,7 @@ aside h2{
     justify-content: space-between;
 }
 
-.medium-img{
+.medium-pic{
     text-decoration: unset;
     width: 100%;
     border-radius: 15px;
@@ -405,38 +389,38 @@ aside h2{
     align-items: center;
 }
 
-.img-activites1 {
+.activites1-pic{
     object-fit: cover;
     width: 100%;
     height: 530px;
     border-radius: 15px 15px 0 0;
 }
 
-.img-activites2 {
+.activites2-pic{
     object-fit: cover;
     width: 100%;
     height: 250px;
     border-radius: 15px 15px 0 0;
 }
-.img-activites3 {
+.activites3-pic{
     object-fit: cover;
     width: 100%;
     height: 150px;
     border-radius: 15px 15px 0 0;
 }
-.img-activites4 {
+.activites4-pic{
     object-fit: cover;
     width: 100%;
     height: 530px;
     border-radius: 15px 15px 0 0;
 }
-.img-activites5 {
+.activites5-pic{
     object-fit: cover;
     width: 100%;
     height: 200px;
     border-radius: 15px 15px 0 0;
 }
-.img-activites6 {
+.activites6-pic{
     object-fit: cover;
     width: 100%;
     height: 200px;
@@ -451,16 +435,16 @@ aside h2{
     background-color: #f2f2f2;
 }
 
-.marge-footer1{
+.margin-footer1{
     margin-left: 5%;
     height: 150px;
 }
 
-.marge-footer2{
+.margin-footer2{
     height: 150px;
 }
 
-.marge-footer3{
+.margin-footer3{
     margin-right: 26%;
     height: 150px;
 }
@@ -586,10 +570,6 @@ aside h2{
         border-radius: 15px;
     }
 
-    .desktop{
-        display: none;
-    }
-
     .mobile{
         display: block;
     }
@@ -618,7 +598,7 @@ aside h2{
         margin-bottom: 15px;
     }
 
-    .vignette-populaires{
+    .populaires-thumbnail{
         margin-bottom: 15px;
     }
 
@@ -639,38 +619,35 @@ aside h2{
         margin-top: 0;
     }
 
-    .vignette-hebergements{
+    .hebergements-thumbnail{
         width: 100%;
+        margin-bottom: 15px;
     }
 
     .description-herbergement{
         min-height: auto;
     }
 
-    .vignette-hebergements{
-        margin-bottom: 15px;
-    }
-
     #activites{
         margin-top: -20px;
     }
 
-    .cadre-activites{
+    .activites-frame{
         flex-direction: column;
         height: auto;
     }
 
-    .big-img{
+    .big-pic{
         width: 100%;
         margin-bottom: 40px;
     }
 
-    .split-img{
+    .split-pic{
         width: 100%;
         height: auto;
     }
 
-    .medium-img{
+    .medium-pic{
         margin-bottom: 40px;
     }
 
@@ -686,7 +663,7 @@ aside h2{
         margin-top: -30px;
     }
 
-    .marge-footer1{
+    .margin-footer1{
         margin-left: 0;
     }
 }
