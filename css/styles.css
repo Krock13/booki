@@ -37,44 +37,38 @@ header, main{
     margin-bottom: 7px;
 }
 
-.navigation {
+.navigation{
     height: auto;
     display: flex;
-  }
+}
   
-.menu {
+.menu{
     margin-left: 60%;
-  }
+}
   
-.display-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
 .hebergements-border{
     color: #0065fc;
     border-top: 1px solid #0065fc;
     width: 140px;
     text-align: center;
-  }
+}
 
 .activites-border{
     color: black;
     border-top: 1.5px solid transparent;
     width: 140px;
     text-align: center;
-  }
+}
 
 .item{
     text-decoration: none;
     padding-top: 35px;
-  }
+}
   
-.size-link {
+.size-link{
     width: 140px;
     height: 99px;
-  }
+}
   
 /* HEADER */
 
