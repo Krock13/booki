@@ -254,6 +254,7 @@ header h2{
     border-radius: 20px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     box-shadow: 5px 10px 10px 5px #f2f2f2;
 }
 
